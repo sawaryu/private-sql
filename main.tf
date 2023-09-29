@@ -1,6 +1,8 @@
 module "network" {
-  source   = "./modules/network"
-  app_name = var.app_name
+  source             = "./modules/network"
+  app_name           = var.app_name
+  peering_ip_range   = var.peering_ip_range
+  connector_ip_range = var.connector_ip_range
 }
 
 module "cloud_sql" {

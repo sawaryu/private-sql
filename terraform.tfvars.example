@@ -1,3 +1,5 @@
-project_id    = ""
-db_user       = ""
-db_password   = ""
+project_id         = ""
+db_user            = ""
+db_password        = ""
+peering_ip_range   = "" # ex) 10.1.0.0
+connector_ip_range = "" # ex) 10.2.0.0
